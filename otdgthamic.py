@@ -1,7 +1,7 @@
 def anonymous_message():
     while True:
         # sur ke jong encode or decode hz ah .strip ng delete space derm bey srul check
-        operation = input("Type encode to encrypt, type encode to decode: ").strip().lower()
+        operation = input("Type encode to encrypt, type decode to decrypt: ").strip().lower()
         
         # check tha ke input trov ot ber ke sorse trov doch del yg jong ban hz continues tt
         if operation not in ["encode", "decode"]:
@@ -69,4 +69,5 @@ def anonymous_message():
 
 # Run the program
 if __name__ == "__main__":
+
     anonymous_message()
